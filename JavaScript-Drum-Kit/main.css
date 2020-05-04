@@ -32,7 +32,7 @@
     background: rgba(0, 0, 0, 0.705);
     text-shadow: 0 0 5px black;
     margin: 20px;
-    transition: .07s;
+    transition: .09s;
 }
 .box h1 {
     color: white;
@@ -43,7 +43,7 @@
     font-size: 20px;
 }
 
-.pushed {
+.pressed {
     transform: scale(1.1);
     border-color: rgb(255, 200, 0);
     box-shadow: 0 0 10px rgb(255, 200, 0);
