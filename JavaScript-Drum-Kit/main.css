@@ -33,6 +33,7 @@
     background: rgba(0, 0, 0, 0.705);
     text-shadow: 0 0 5px black;
     margin: 20px;
+    transition: .07s;
 }
 .box h1 {
     color: white;
