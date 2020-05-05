@@ -10,18 +10,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("./images/wall-background.jpg");
+    background-size: contain;
+    background-repeat: repeat;
 }
 .body {
-    background-image: url("./images/clock-background.jpg");
+    background-image: url("./images/roman-clock-background.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     position: relative;
 }
 .arrow {
-    width: 200px;
-    height: 1px;
     background-color: black;
     position: absolute;
     top: 50%;
@@ -31,6 +32,25 @@
     transition: .04s all;
     transition-timing-function: cubic-bezier(0.95, 2.7, 0.58, 1);
 }
+.hourDiv {
+    width: 100px;
+    height: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.minuteDiv {
+    width: 150px;
+    height: 8px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.secondsDiv {
+    width: 200px;
+    height: 5px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
 .notransition {
     transition: none !important;
 }
