@@ -31,3 +31,6 @@
     transition: .04s all;
     transition-timing-function: cubic-bezier(0.95, 2.7, 0.58, 1);
 }
+.notransition {
+    transition: none !important;
+}
