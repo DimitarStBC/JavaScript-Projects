@@ -8,8 +8,8 @@
 
 :root{
     --color: #da5f5f;
-    --size: 1px;
-    --blur: 0px;
+    --size: 1px;    /*  to be changed */
+    --blur: 0px;    /* to be changed */
 }
 
 img {

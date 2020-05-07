@@ -11,17 +11,19 @@
 <body>
 
     <section class="home">
-        <h1><span> Alcohol </span> may change your perspective</h1>
+        <h1><span id="headTitle"> Alcohol </span> may change your perspective</h1>
         <div class="flexCol">
             <label for="">Border</label>
-            <input type="range" name="border" min="1" max="20" value="1" data-sizing="px">
+            <input type="range" name="size" min="1" max="20" value="1" data-sizing="px">
             <label for="">Alcohol</label>
             <input type="range" name="blur" min="0" max="20" value="0" data-sizing="px">
         </div>
         <div class="picture">
-            <img src="./images/before.jpg" alt="">
+            <img id="imageBeforeAfter" src="./images/before.jpg" alt="">
         </div>
     </section>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
